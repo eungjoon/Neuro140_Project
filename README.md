@@ -8,7 +8,9 @@ This file is compatible with the Kaggle notebook API. Due to the extremely large
 
 This project uses the following datasets:
 NIH Chest X-ray: https://www.kaggle.com/datasets/nih-chest-xrays/data/code
+
 VinDr: https://www.kaggle.com/datasets/awsaf49/vinbigdata-original-image-dataset
+
 Guangzhou Pediatric Chest X-ray: https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia
 
 Based on the file architecture of each dataset, custom Dataset Classes were created (located in the "Setup datasets and dataloaders" section). For the GZ dataset, we used the pre-existing ImageFolder class.
